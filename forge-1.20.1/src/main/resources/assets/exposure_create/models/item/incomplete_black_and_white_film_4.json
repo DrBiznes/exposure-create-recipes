@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "exposure_create:item/incomplete_black_and_white_film_4"
+  }
+}

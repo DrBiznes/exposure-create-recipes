@@ -1,0 +1,32 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "exposure_create:item/incomplete_camera_0"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "exposure_create:progress": 0.195
+      },
+      "model": "exposure_create:item/incomplete_camera_1"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.395
+      },
+      "model": "exposure_create:item/incomplete_camera_2"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.595
+      },
+      "model": "exposure_create:item/incomplete_camera_3"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.795
+      },
+      "model": "exposure_create:item/incomplete_camera_4"
+    }
+  ]
+}

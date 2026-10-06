@@ -1,0 +1,44 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "exposure_create:item/incomplete_high_sensitivity_black_and_white_film_0"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "exposure_create:progress": 0.1379
+      },
+      "model": "exposure_create:item/incomplete_high_sensitivity_black_and_white_film_1"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.2807
+      },
+      "model": "exposure_create:item/incomplete_high_sensitivity_black_and_white_film_2"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.4236
+      },
+      "model": "exposure_create:item/incomplete_high_sensitivity_black_and_white_film_3"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.5664
+      },
+      "model": "exposure_create:item/incomplete_high_sensitivity_black_and_white_film_4"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.7093
+      },
+      "model": "exposure_create:item/incomplete_high_sensitivity_black_and_white_film_5"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.8521
+      },
+      "model": "exposure_create:item/incomplete_high_sensitivity_black_and_white_film_6"
+    }
+  ]
+}

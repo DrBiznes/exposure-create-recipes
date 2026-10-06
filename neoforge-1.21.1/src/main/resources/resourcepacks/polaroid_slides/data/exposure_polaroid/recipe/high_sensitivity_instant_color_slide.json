@@ -1,0 +1,60 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "item": "minecraft:cyan_dye"
+    },
+    {
+      "item": "minecraft:magenta_dye"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "type": "fluid_stack",
+      "fluid": "create:potion",
+      "amount": 250,
+      "components": {
+        "create:potion_fluid_bottle_type": "regular",
+        "minecraft:potion_contents": {
+          "potion": "minecraft:swiftness"
+        }
+      }
+    },
+    {
+      "type": "fluid_stack",
+      "fluid": "create:potion",
+      "amount": 250,
+      "components": {
+        "create:potion_fluid_bottle_type": "regular",
+        "minecraft:potion_contents": {
+          "potion": "minecraft:night_vision"
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "id": "exposure_polaroid:high_sensitivity_instant_color_slide",
+      "count": 3
+    }
+  ]
+}

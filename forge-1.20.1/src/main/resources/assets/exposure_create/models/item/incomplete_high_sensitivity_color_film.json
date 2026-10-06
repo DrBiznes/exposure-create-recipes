@@ -1,0 +1,68 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "exposure_create:item/incomplete_high_sensitivity_color_film_0"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "exposure_create:progress": 0.0859
+      },
+      "model": "exposure_create:item/incomplete_high_sensitivity_color_film_1"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.1768
+      },
+      "model": "exposure_create:item/incomplete_high_sensitivity_color_film_2"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.2677
+      },
+      "model": "exposure_create:item/incomplete_high_sensitivity_color_film_3"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.3586
+      },
+      "model": "exposure_create:item/incomplete_high_sensitivity_color_film_4"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.4495
+      },
+      "model": "exposure_create:item/incomplete_high_sensitivity_color_film_5"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.5405
+      },
+      "model": "exposure_create:item/incomplete_high_sensitivity_color_film_6"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.6314
+      },
+      "model": "exposure_create:item/incomplete_high_sensitivity_color_film_7"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.7223
+      },
+      "model": "exposure_create:item/incomplete_high_sensitivity_color_film_8"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.8132
+      },
+      "model": "exposure_create:item/incomplete_high_sensitivity_color_film_9"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.9041
+      },
+      "model": "exposure_create:item/incomplete_high_sensitivity_color_film_10"
+    }
+  ]
+}

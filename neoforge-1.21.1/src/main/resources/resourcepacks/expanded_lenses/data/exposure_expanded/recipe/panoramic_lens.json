@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:spyglass"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "exposure_expanded:panoramic_lens"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_lens"
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_lens"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_lens"
+        },
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_lens"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_lens"
+        },
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_lens"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "exposure_create:incomplete_lens"
+  }
+}

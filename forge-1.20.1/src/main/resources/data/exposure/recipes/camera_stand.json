@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "pattern": [
+    " I ",
+    " S ",
+    "SSS",
+    "S S",
+    "B B"
+  ],
+  "result": {
+    "item": "exposure:camera_stand"
+  },
+  "acceptMirrored": true
+}

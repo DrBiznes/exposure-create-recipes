@@ -1,0 +1,110 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:brass_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "exposure:camera"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_camera"
+        },
+        {
+          "item": "create:iron_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "exposure_create:incomplete_camera"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_camera"
+        }
+      ],
+      "results": [
+        {
+          "item": "exposure_create:incomplete_camera"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_camera"
+        },
+        {
+          "item": "minecraft:glass_pane"
+        }
+      ],
+      "results": [
+        {
+          "item": "exposure_create:incomplete_camera"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_camera"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "exposure_create:incomplete_camera"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_camera"
+        },
+        {
+          "item": "minecraft:lever"
+        }
+      ],
+      "results": [
+        {
+          "item": "exposure_create:incomplete_camera"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_camera"
+        },
+        {
+          "tag": "minecraft:buttons"
+        }
+      ],
+      "results": [
+        {
+          "item": "exposure_create:incomplete_camera"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "exposure_create:incomplete_camera"
+  }
+}

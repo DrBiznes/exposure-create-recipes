@@ -1,0 +1,9 @@
+{
+  "item.exposure_create.incomplete_black_and_white_film": "Incomplete Black & White Film",
+  "item.exposure_create.incomplete_high_sensitivity_black_and_white_film": "Incomplete High-Sensitivity Black & White Film",
+  "item.exposure_create.incomplete_color_film": "Incomplete Color Film",
+  "item.exposure_create.incomplete_high_sensitivity_color_film": "Incomplete High-Sensitivity Color Film",
+  "item.exposure_create.incomplete_camera": "Incomplete Camera",
+  "item.exposure_create.incomplete_lens": "Incomplete Lens",
+  "item.exposure_create.incomplete_instant_camera": "Incomplete Instant Camera"
+}

@@ -1,0 +1,56 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "exposure_create:item/incomplete_color_film_0"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "exposure_create:progress": 0.1061
+      },
+      "model": "exposure_create:item/incomplete_color_film_1"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.2172
+      },
+      "model": "exposure_create:item/incomplete_color_film_2"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.3283
+      },
+      "model": "exposure_create:item/incomplete_color_film_3"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.4394
+      },
+      "model": "exposure_create:item/incomplete_color_film_4"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.5506
+      },
+      "model": "exposure_create:item/incomplete_color_film_5"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.6617
+      },
+      "model": "exposure_create:item/incomplete_color_film_6"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.7728
+      },
+      "model": "exposure_create:item/incomplete_color_film_7"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.8839
+      },
+      "model": "exposure_create:item/incomplete_color_film_8"
+    }
+  ]
+}

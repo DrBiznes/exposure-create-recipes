@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:writable_book"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    }
+  ],
+  "results": [
+    {
+      "id": "exposure:album"
+    }
+  ]
+}

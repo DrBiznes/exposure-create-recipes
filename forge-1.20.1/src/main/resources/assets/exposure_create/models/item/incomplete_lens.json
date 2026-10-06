@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "exposure_create:item/incomplete_lens_0"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "exposure_create:progress": 0.495
+      },
+      "model": "exposure_create:item/incomplete_lens_1"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:golden_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "exposure:color_film"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_color_film"
+        },
+        {
+          "item": "minecraft:dried_kelp"
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_color_film"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_color_film"
+        },
+        {
+          "type": "fluid_stack",
+          "fluid": "create:potion",
+          "amount": 250,
+          "components": {
+            "create:potion_fluid_bottle_type": "regular",
+            "minecraft:potion_contents": {
+              "potion": "minecraft:swiftness"
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_color_film"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_color_film"
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_color_film"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_color_film"
+        },
+        {
+          "type": "fluid_stack",
+          "fluid": "create:potion",
+          "amount": 250,
+          "components": {
+            "create:potion_fluid_bottle_type": "regular",
+            "minecraft:potion_contents": {
+              "potion": "minecraft:poison"
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_color_film"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_color_film"
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_color_film"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_color_film"
+        },
+        {
+          "type": "fluid_stack",
+          "fluid": "create:potion",
+          "amount": 250,
+          "components": {
+            "create:potion_fluid_bottle_type": "regular",
+            "minecraft:potion_contents": {
+              "potion": "minecraft:weakness"
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_color_film"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_color_film"
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_color_film"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_color_film"
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_color_film"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_color_film"
+        },
+        {
+          "item": "minecraft:lapis_lazuli"
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_color_film"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_color_film"
+        },
+        {
+          "item": "minecraft:gold_nugget"
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_color_film"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "exposure_create:incomplete_color_film"
+  }
+}

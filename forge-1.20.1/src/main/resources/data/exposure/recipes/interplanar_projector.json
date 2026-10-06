@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "P": {
+      "item": "minecraft:tinted_glass"
+    },
+    "T": {
+      "item": "create:electron_tube"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "pattern": [
+    "  B  ",
+    " PTP ",
+    "BTETB",
+    " PTP ",
+    "  B  "
+  ],
+  "result": {
+    "item": "exposure:interplanar_projector"
+  },
+  "acceptMirrored": true
+}

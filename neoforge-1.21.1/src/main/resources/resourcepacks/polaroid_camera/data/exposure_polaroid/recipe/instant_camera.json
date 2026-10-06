@@ -1,0 +1,110 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:brass_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "exposure_polaroid:instant_camera"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_instant_camera"
+        },
+        {
+          "item": "create:mechanical_crafter"
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_instant_camera"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_instant_camera"
+        },
+        {
+          "item": "create:iron_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_instant_camera"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_instant_camera"
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_instant_camera"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_instant_camera"
+        },
+        {
+          "item": "minecraft:glass_pane"
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_instant_camera"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_instant_camera"
+        },
+        {
+          "tag": "exposure:flashes"
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_instant_camera"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exposure_create:incomplete_instant_camera"
+        },
+        {
+          "tag": "minecraft:buttons"
+        }
+      ],
+      "results": [
+        {
+          "id": "exposure_create:incomplete_instant_camera"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "exposure_create:incomplete_instant_camera"
+  }
+}

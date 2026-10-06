@@ -1,0 +1,32 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "exposure_create:item/incomplete_black_and_white_film_0"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "exposure_create:progress": 0.195
+      },
+      "model": "exposure_create:item/incomplete_black_and_white_film_1"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.395
+      },
+      "model": "exposure_create:item/incomplete_black_and_white_film_2"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.595
+      },
+      "model": "exposure_create:item/incomplete_black_and_white_film_3"
+    },
+    {
+      "predicate": {
+        "exposure_create:progress": 0.795
+      },
+      "model": "exposure_create:item/incomplete_black_and_white_film_4"
+    }
+  ]
+}

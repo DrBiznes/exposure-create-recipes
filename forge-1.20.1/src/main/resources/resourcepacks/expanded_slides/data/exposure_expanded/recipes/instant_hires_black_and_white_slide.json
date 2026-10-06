@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "fluid": "create:potion",
+      "amount": 250,
+      "nbt": {
+        "Potion": "minecraft:swiftness",
+        "Bottle": "REGULAR"
+      }
+    }
+  ],
+  "results": [
+    {
+      "item": "exposure_expanded:instant_hires_black_and_white_slide",
+      "count": 3
+    }
+  ]
+}

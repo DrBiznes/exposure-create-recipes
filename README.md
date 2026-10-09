@@ -1,4 +1,4 @@
-![Exposure: Create Recipes](docs/banner.png)
+<img width="1570" height="380" alt="banner" src="https://github.com/user-attachments/assets/f7aac1b6-9814-485f-9092-e75ff72ef602" />
 
 Replaces [Exposure](https://modrinth.com/mod/exposure)'s crafting recipes with
 [Create](https://modrinth.com/mod/create) processing recipes, so cameras and film come off an assembly line instead

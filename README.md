@@ -17,6 +17,6 @@ of a crafting table.
 | 1.20.1 | Forge | Create 6.0.7+, Exposure 1.9.x |
 | 1.21.1 | NeoForge | Create 6.0.7+, Exposure 1.9.x |
 
-Full recipe list, config reference and build instructions: [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
+Full recipe list, config reference and build instructions: [docs/DEVELOPMENT.md](https://github.com/DrBiznes/exposure-create-recipes/blob/main/docs/DEVELOPMENT.md).
 
 Camera and film sprites in the artwork are from Exposure (MIT, mortuusars).
